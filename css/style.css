@@ -1,0 +1,93 @@
+.back {
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+form {
+    width: 28%;
+    background-color: rgb(255, 255, 255);
+    height: 81%;
+    border-radius: 25px;
+}
+h5 {
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: #03ca67;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.praice1::after{
+    content: " /Monthly";
+    font-size: x-small;
+    font-weight: bold;
+    color: rgb(149, 153, 156);
+}
+.praice2::after{
+    content: " /Monthly";
+    font-size: x-small;
+    font-weight: bold;
+    color: rgb(149, 153, 156);
+}
+.praice3::after{
+    content: " /Monthly";
+    font-size: x-small;
+    font-weight: bold;
+    color: rgb(149, 153, 156);
+}
+ul{
+    list-style-type:none;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    padding-top: 16px;
+    flex-direction: column;
+    
+
+}
+ul li:first-child{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: 12px;
+
+}
+ul li:not(:first-child){
+    font-size: 12px;
+    font-weight:600 ;
+    color: rgb(149, 153, 156);
+    padding-top: 9px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top:4.5px ;
+    padding-bottom: 4.5px;
+    margin-top: -10;
+    border: 1px solid black;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}a:hover{
+    text-decoration: none;
+}
